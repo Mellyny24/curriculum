@@ -55,6 +55,13 @@ function exercise1(num1) {
   // ------------------------------------------
   // Write your code for exercise 1 below here:
   // ------------------------------------------
+  answer1 = "num1 is small";
+  if (num1 > 10) 
+  answer1 = "The value of num1 is " + num1 + " and is greater than 10";
+
+
+
+
 
   // ------------------------------------------
   // And above here
@@ -77,6 +84,13 @@ function exercise2(num2) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+  if num2 % 2 === 0 {
+  answer2 = num2 + " is even";
+   else 
+  answer2 = num2 + " is odd";
+
+
+
 
   // --------------------------------------------
   // And above here
@@ -98,6 +112,13 @@ function exercise3(num3) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+  if num3 > 0 {
+  answer3 = num3 + " is positive";
+  else if (num3 < 0) 
+  answer3 = num3 + " is negative";
+  else 
+  answer3 = num3 + " is zero";
+}
 
   // --------------------------------------------
   // And above here
@@ -116,6 +137,15 @@ function exercise4(varA, varB) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+  if (typeof varA === "string" typeof varA === "number") 
+    (typeof varB === "string" typeof varB === "number") 
+  if (varA == varB) 
+    answer4 = "varA and varB are equal";
+    else 
+    answer4 = "varA and varB differ";
+    else 
+  answer4 = "varA and varB differ";
+  }
 
   // --------------------------------------------
   // And above here
@@ -127,7 +157,7 @@ function exercise4(varA, varB) {
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
-
+Using the == compares the value, so ("5") string and (5) number are considered equal.
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
 // `varA` and `varB` are equal, but `varA` or `varB` does not equal `varC`
@@ -137,7 +167,7 @@ function exercise6(varA, varB, varC) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  
   // --------------------------------------------
   // And above here
   // --------------------------------------------
